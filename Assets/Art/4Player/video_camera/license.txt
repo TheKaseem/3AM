@@ -1,0 +1,11 @@
+Model Information:
+* title:	Video Camera
+* source:	https://sketchfab.com/3d-models/video-camera-1e9229885c034f549ee504da105dd993
+* author:	Uğur Yakışık (https://sketchfab.com/UgurYksk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Video Camera" (https://sketchfab.com/3d-models/video-camera-1e9229885c034f549ee504da105dd993) by Uğur Yakışık (https://sketchfab.com/UgurYksk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
