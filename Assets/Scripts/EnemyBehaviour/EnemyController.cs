@@ -1,13 +1,22 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
     private EnemyStateMachine stateMachine = new();
+    private NavMeshAgent agent;
+    private Transform player;
+
+    public float walkSpeed = 2f;
+    public float chaseSpeed = 4f;
+    public float detectionRange = 10f;
 
     void Start()
     {
-        stateMachine.Initialize();
-        stateMachine.ChangeState(EnemyStateType.Idle);
+        agent = GetComponent<NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        stateMachine.Initialize(agent, player, walkSpeed, chaseSpeed, detectionRange);
     }
 
     void Update()
@@ -18,10 +27,5 @@ public class EnemyController : MonoBehaviour
     public void TriggerEvent(string eventName)
     {
         stateMachine.HandleEvent(eventName);
-    }
-
-    public void SetState(EnemyStateType newState)
-    {
-        stateMachine.ChangeState(newState);
     }
 }

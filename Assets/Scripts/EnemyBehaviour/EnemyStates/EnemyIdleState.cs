@@ -3,7 +3,10 @@ using UnityEngine;
 public class EnemyIdleState : IEnemyState
 {
     private EnemyStateMachine stateMachine;
-    float enemySpeed = 0f;
+    private float enemySpeed = 0f;
+
+    private float idleDuration;
+    private float idleTimer;
 
     public EnemyIdleState(EnemyStateMachine machine, float moveSpeed)
     {
@@ -14,11 +17,19 @@ public class EnemyIdleState : IEnemyState
     public void OnEnter()
     {
         Debug.Log("Enemy is on Idle");
+
+        idleDuration = Random.Range(2f, 5f);
+        idleTimer = 0f;
     }
 
     public void OnUpdate()
     {
-        
+        idleTimer += Time.deltaTime;
+
+        if (idleTimer >= idleDuration)
+        {
+            stateMachine.ChangeState(EnemyStateType.Walking);
+        }
     }
 
     public void OnExit()

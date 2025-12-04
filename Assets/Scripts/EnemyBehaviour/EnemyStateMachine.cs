@@ -8,11 +8,12 @@ public class EnemyStateMachine
     private IEnemyState currentState;
     private EnemyStateType currentType;
 
-    public void Initialize()
+    public void Initialize(UnityEngine.AI.NavMeshAgent agent, Transform player, float walkSpeed, float chaseSpeed, float range)
     {
-        states[EnemyStateType.Idle] = new EnemyIdleState(this, 0f); //machine + speed
-        states[EnemyStateType.Walking] = new EnemyWalkingState(this, 0f); // machine + speed
-        //More states
+        states[EnemyStateType.Idle]    = new EnemyIdleState(this, 0f);
+        states[EnemyStateType.Walking] = new EnemyWalkingState(this, agent, player, walkSpeed, range);
+        states[EnemyStateType.Chasing] = new EnemyChaseState(this, agent, player, chaseSpeed, range);
+        //Feed me more
 
         ChangeState(EnemyStateType.Idle);
     }
