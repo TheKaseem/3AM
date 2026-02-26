@@ -2,36 +2,26 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    [Header("Prefab a spawnear")]
-    public GameObject objetoPrefab;
+    public GameObject enemyPrefab;
+    public float timeLife = 5;
 
-    [Header("Tiempo de vida (segundos)")]
-    public float tiempoDeVida = 5f;
-
-    private GameObject objetoInstanciado;
+    private GameObject instanceObject;
 
     void Start()
     {
-        // Instancia el objeto inmediatamente
-        objetoInstanciado = Instantiate(objetoPrefab, transform.position, transform.rotation);
+        instanceObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
 
-        // Lo desactiva después del tiempo indicado
-        Invoke(nameof(DesactivarObjeto), tiempoDeVida);
+        //StartCoroutine(DesactivatePostTime(instanceObject, timeLife));
     }
-
-    void DesactivarObjeto()
+    /*
+    private System.Collections.IEnumerator DesactivatePostTime(GameObject obj, float time)
     {
-        if (objetoInstanciado != null)
+        yield return new WaitForSeconds(time);
+        if (obj != null)
         {
-            objetoInstanciado.SetActive(false);
+        obj.SetActive(false);
         }
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (objetoInstanciado != null && other.CompareTag("Player"))
-        {
-            objetoInstanciado.SetActive(false);
-        }
-    }
+    }*/
+    
 }
