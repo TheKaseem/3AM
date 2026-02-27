@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
+    [Header("EnemyPrefab")]
     public GameObject enemyPrefab;
+
+    [Header("Time")]
     public float timeLife = 5;
 
     private GameObject instanceObject;
@@ -11,9 +14,9 @@ public class SpawnEnemy : MonoBehaviour
     {
         instanceObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
 
-        //StartCoroutine(DesactivatePostTime(instanceObject, timeLife));
+        StartCoroutine(DesactivatePostTime(instanceObject, timeLife));
     }
-    /*
+    
     private System.Collections.IEnumerator DesactivatePostTime(GameObject obj, float time)
     {
         yield return new WaitForSeconds(time);
@@ -22,6 +25,14 @@ public class SpawnEnemy : MonoBehaviour
         obj.SetActive(false);
         }
 
+    }
+    /*
+    private void OnTriggerEnter(Collider other)
+    {
+        if (instanceObject != null && other.CompareTag("Player"))
+        {
+            instanceObject.SetActive(false);
+        }
     }*/
-    
+
 }
