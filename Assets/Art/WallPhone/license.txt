@@ -1,0 +1,11 @@
+Model Information:
+* title:	Phone
+* source:	https://sketchfab.com/3d-models/phone-aa3292e2e71c45e5a7f7b097ff0c7426
+* author:	GokouFG (https://sketchfab.com/Gokoufag)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Phone" (https://sketchfab.com/3d-models/phone-aa3292e2e71c45e5a7f7b097ff0c7426) by GokouFG (https://sketchfab.com/Gokoufag) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
