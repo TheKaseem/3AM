@@ -455,7 +455,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3855,10 +3855,6 @@ MonoBehaviour:
   flickerDuration: 2
   flickerSpeed: 0.1
   alreadyTriggered: 0
-  casette: {fileID: 1785803230}
-  flickingLightsClip: {fileID: 8300000, guid: b5287f1bcd382e14fa8d28468cb4362d, type: 3}
-  fallenCasetteClip: {fileID: 8300000, guid: f9588d9fc8e1659468d7f4229a78a3e0, type: 3}
-  playerVoice: {fileID: 1269322881}
 --- !u!1 &414463040
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,8 +5433,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.5959637, y: 0.9999998, z: 1}
-  m_Center: {x: 1.297983, y: 0, z: -6.691325e-16}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &510460668
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5504,13 +5500,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510460666}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.167, y: 8.974, z: 12.938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6879, y: 11.279, z: 1.8215}
   m_LocalScale: {x: 0.27621698, y: 3.0344713, z: 1.8914102}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1236239708}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &510460671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5524,7 +5520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: LvlSelectorAPT
-  tag: Player
+  tag: Key
 --- !u!1 &515689181
 GameObject:
   m_ObjectHideFlags: 0
@@ -8104,7 +8100,7 @@ Transform:
   m_GameObject: {fileID: 805847843}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.23, y: 5.524, z: 3.804}
+  m_LocalPosition: {x: 4.23, y: 6.829, z: 5.763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9507,7 +9503,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -11316,7 +11312,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -18647,7 +18643,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -19910,7 +19906,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -24370,7 +24366,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 13
-  m_Range: 8
+  m_Range: 3
   m_SpotAngle: 36.49388
   m_InnerSpotAngle: 7.309078
   m_CookieSize2D: {x: 10, y: 10}
