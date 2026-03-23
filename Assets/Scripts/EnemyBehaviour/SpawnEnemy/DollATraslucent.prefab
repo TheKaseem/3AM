@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 4753107293093779957}
   - component: {fileID: 3092127823000526451}
   m_Layer: 0
-  m_Name: DollAShadow
+  m_Name: DollATraslucent
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
