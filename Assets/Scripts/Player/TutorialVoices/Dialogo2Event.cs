@@ -29,7 +29,6 @@ public class Dialogo2Event : MonoBehaviour
             if (rb != null)
             {
                 rb.useGravity = true;
-                rb.isKinematic = false;
             }
 
             if (playerVoice != null && flickingLightsClip != null)
