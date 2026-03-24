@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 72dfb68c9ccf63f4e8686f14959499e2, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 4acab17e031d418488860d8ae0e8cd8b, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 78151f5e58fb9f749bd5225f789faa27, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -461,7 +461,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 5.54e-43, y: 1.424e-42, z: 4.135936e-25, w: 1.83776e-40}
+  m_BoundingSphereOverride: {x: 1.19e-43, y: NaN, z: 2.1e-44, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3329,22 +3329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.56
@@ -3389,10 +3377,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1e98ebe0ed4d9894d9610d836de5f478, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4079,22 +4063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.56
@@ -4139,10 +4111,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1e98ebe0ed4d9894d9610d836de5f478, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4277,22 +4245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 26f1b36be16f30d409f9ab1a7d20a8a5, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.14
@@ -4345,10 +4301,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 5f469581b50505747a410deecdf8f11d, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6942,7 +6894,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.758934e+22, y: 1.5561429e+28, z: 2.794639e+20, w: 7.225071e+28}
+  m_BoundingSphereOverride: {x: 9.68e-43, y: 1.3e-43, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -7198,22 +7150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.69
@@ -7258,10 +7198,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1e98ebe0ed4d9894d9610d836de5f478, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8932,7 +8868,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 5.047893e-20, y: 1.653144e-39, z: 4.665e-42, w: 7.2110007e+28}
+  m_BoundingSphereOverride: {x: 5.326459e-39, y: 6.015247e-39, z: 0, w: 2.015625}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9283,7 +9219,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 3.67342e-40, y: 1.4546743e-37, z: 4.1682227e-25, w: 2.75612e-40}
+  m_BoundingSphereOverride: {x: 0, y: 1.841e-42, z: 0, w: -4.2e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9421,22 +9357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.692
@@ -9481,10 +9405,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1e98ebe0ed4d9894d9610d836de5f478, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10414,7 +10334,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.1693422e-19, y: 41989250, z: 7.365175e+31, w: 7.3113174e+34}
+  m_BoundingSphereOverride: {x: 4.284328e-37, y: 0, z: 6.423599e+24, w: -3.2045813e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10661,7 +10581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1045935735
 Transform:
@@ -11091,7 +11011,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 5.55e-43, y: 3.065541e-38, z: 5.55e-43, w: 2.62e-43}
+  m_BoundingSphereOverride: {x: 1.468639e+25, y: 8.821532e+11, z: 8.480153e-33, w: 1.7086692e+19}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14902,7 +14822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1392780843
 Transform:
@@ -15493,7 +15413,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.758934e+22, y: 1.5561429e+28, z: 2.794639e+20, w: 7.225071e+28}
+  m_BoundingSphereOverride: {x: 5.395e-42, y: -1.2846889e-37, z: 9.68e-43, w: 6.32e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15956,7 +15876,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 5.55e-43, y: 1.0117565e-38, z: 5.55e-43, w: 2.84e-43}
+  m_BoundingSphereOverride: {x: -6.9e-44, y: NaN, z: 2.1e-44, w: 2.296e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -17619,7 +17539,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 13139
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 8.25e-43, y: 8.27e-43, z: 8.28e-43, w: 8.31e-43}
+  m_BoundingSphereOverride: {x: 9.68e-43, y: 1.19e-43, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -22086,22 +22006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Int_BA_Door_01
       objectReference: {fileID: 0}
-    - target: {fileID: 1295196397471629250, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881478864280632602, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2978732849614160507, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fe522d7b1289c4345b686fc29ee51adf, type: 2}
-    - target: {fileID: 3255673126108304427, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3813802598777334903, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.942
@@ -22146,10 +22054,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 1e98ebe0ed4d9894d9610d836de5f478, type: 2}
-    - target: {fileID: 8615917613655224574, guid: 62bd457adfa663b4b8de2903bb4c8006, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
