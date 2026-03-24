@@ -1,0 +1,11 @@
+Model Information:
+* title:	doll
+* source:	https://sketchfab.com/3d-models/doll-51b4dafa7fa745c0af8e3772d0ac8a33
+* author:	lucq22 (https://sketchfab.com/lucq22)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "doll" (https://sketchfab.com/3d-models/doll-51b4dafa7fa745c0af8e3772d0ac8a33) by lucq22 (https://sketchfab.com/lucq22) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
