@@ -1,22 +1,37 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerLife : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
-    public Image fillLife;
-    private PlayerController playerController;
+    [Header("Vida")]
+    public float maxHealth = 100f;
+    public float currentHealth;
 
-    private float maxLife;
+    [Header("UI")]
+    public Image healthFill; 
 
     void Start()
     {
-        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
-
-        maxLife = playerController.vida;
+        currentHealth = maxHealth;
+        UpdateHealthUI();
     }
 
-    void Update()
+    public void TakeDamage(float amount)
     {
-        fillLife.fillAmount = playerController.vida / maxLife;
+        currentHealth = Mathf.Max(currentHealth - amount, 0f);
+        UpdateHealthUI();
+
+        if (currentHealth <= 0f)
+        {
+            Debug.Log("muelto");
+        }
+    }
+
+    void UpdateHealthUI()
+    {
+        if (healthFill != null)
+        {
+            healthFill.fillAmount = currentHealth / maxHealth;
+        }
     }
 }

@@ -14,7 +14,7 @@ public class EnemyShadow : MonoBehaviour
     public float chaseSpeed = 3f;
     private bool isChasing = false;
 
-    private bool touchedByRaycast = false; // flag para saber si fue tocado este frame
+    private bool touchedByRaycast = false; 
 
     void Update()
     {
@@ -29,19 +29,19 @@ public class EnemyShadow : MonoBehaviour
 
         touchedByRaycast = false;
 
-        // Si contador llega a 100, perseguir
-        if (contador >= maxContador)
+       
+        if (contador >= maxContador)  // Si contador llega a 100 persigue a player
         {
             isChasing = true;
         }
 
-        // Si contador baja de 50, desactivar enemigo
-        if (contador <= deactivateEnemy)
+        
+        if (contador <= deactivateEnemy) // Si contador baja de 50 desactiva enemy
         {
             gameObject.SetActive(false);
         }
 
-        // Movimiento de persecución
+        
         if (isChasing && player != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
@@ -57,7 +57,6 @@ public class EnemyShadow : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Al chocar con el jugador, se desactiva
             gameObject.SetActive(false);
         }
     }
