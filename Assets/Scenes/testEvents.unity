@@ -384,18 +384,6 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1778341171}
-    - target: {fileID: 706050773882702363, guid: 34c6b11d154c2434eb5f551ffac1959c, type: 3}
-      propertyPath: detectionRange
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3092127823000526451, guid: 34c6b11d154c2434eb5f551ffac1959c, type: 3}
-      propertyPath: m_Volume
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3092127823000526451, guid: 34c6b11d154c2434eb5f551ffac1959c, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9206886413160428860, guid: 34c6b11d154c2434eb5f551ffac1959c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0861166
@@ -672,7 +660,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: e2724d0137a715b478691c2ddb8c424e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.05
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
