@@ -142,7 +142,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
+  m_Resource: {fileID: 8300000, guid: e2724d0137a715b478691c2ddb8c424e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5adc618d4503f3c408d27f3e64d5db52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySusurros
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 3092127823000526451}
   detectionRange: 5
 --- !u!1 &4025738549343132535
 GameObject:
