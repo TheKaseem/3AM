@@ -20,45 +20,38 @@ public class RitualTriggers : MonoBehaviour
 
     void Start()
     {
-        riceObject.SetActive(false);
-        ritualStart.SetActive(false);
+        if (riceObject != null) riceObject.SetActive(false);
+        if (ritualStart != null) ritualStart.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (!knifeTriggered && other.CompareTag("Knife") && gameObject.CompareTag("Doll"))
         {
-            Vector3 currentPosition = transform.position;
-            Quaternion currentRotation = transform.rotation;
+            Transform dollModel = transform.Find("DollOG");
+            if (dollModel != null) Destroy(dollModel.gameObject);
 
-            Destroy(gameObject);
+            GameObject skinny = Instantiate(dollSkinnyPrefab, transform);
+            skinny.transform.localPosition = Vector3.zero;
+            skinny.transform.localRotation = Quaternion.identity;
 
-            GameObject skinny = Instantiate(dollSkinnyPrefab, currentPosition, currentRotation);
             PlaySound(dialogueFour);
             knifeTriggered = true;
-            riceObject.SetActive(true);
-
-            RitualTriggers skinnyScript = skinny.AddComponent<RitualTriggers>();
-            skinnyScript.dollSkinnyPrefab = dollSkinnyPrefab;
-            skinnyScript.dollFatPrefab = dollFatPrefab;
-            skinnyScript.recorderVoice = recorderVoice;
-            skinnyScript.dialogueFour = dialogueFour;
-            skinnyScript.dialogueFive = dialogueFive;
-            skinnyScript.riceObject = riceObject;
-            skinnyScript.knifeTriggered = true;
+            if (riceObject != null) riceObject.SetActive(true);
         }
 
         if (knifeTriggered && !riceTriggered && other.CompareTag("Rice"))
         {
-            Vector3 currentPosition = transform.position;
-            Quaternion currentRotation = transform.rotation;
+            Transform skinnyModel = transform.Find(dollSkinnyPrefab.name + "(Clone)");
+            if (skinnyModel != null) Destroy(skinnyModel.gameObject);
 
-            Destroy(gameObject);
+            GameObject fat = Instantiate(dollFatPrefab, transform);
+            fat.transform.localPosition = Vector3.zero;
+            fat.transform.localRotation = Quaternion.identity;
 
-            Instantiate(dollFatPrefab, currentPosition, currentRotation);
             PlaySound(dialogueFive);
             riceTriggered = true;
-            ritualStart.SetActive(true);
+            if (ritualStart != null) ritualStart.SetActive(true);
         }
     }
 

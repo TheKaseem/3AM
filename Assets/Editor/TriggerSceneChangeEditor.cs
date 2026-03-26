@@ -9,7 +9,6 @@ public class TriggerSceneChangeEditor : Editor
     {
         TriggerSceneChange trigger = (TriggerSceneChange)target;
 
-        // Obtiene todas las escenas en Build Settings
         int sceneCount = EditorBuildSettings.scenes.Length;
         string[] sceneNames = new string[sceneCount];
         int currentIndex = -1;

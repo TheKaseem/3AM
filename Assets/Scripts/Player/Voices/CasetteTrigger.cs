@@ -6,7 +6,17 @@ public class CasetteTrigger : MonoBehaviour
     public GameObject recorderVoice;
     public AudioClip cassetteSound;
 
+    [Header("Object Post Event")]
+    public GameObject doll;
+
     private bool hasPlayed = false;
+
+
+    void Start()
+    {
+        doll.SetActive(false);
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,6 +27,7 @@ public class CasetteTrigger : MonoBehaviour
             {
                 audioSource.PlayOneShot(cassetteSound);
                 hasPlayed = true;
+                doll.SetActive(true);
             }
 
             Destroy(other.gameObject);
