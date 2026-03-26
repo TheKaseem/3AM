@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4317336706613372232}
   - component: {fileID: 4753107293093779957}
   - component: {fileID: 3092127823000526451}
+  - component: {fileID: 706050773882702363}
   m_Layer: 0
   m_Name: DollATraslucent
   m_TagString: Enemy
@@ -129,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d38190086f687c40ae738e7c0a66328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TraslucidEnemy
-  disappearSound: {fileID: 8300000, guid: ce7a301fb47c79043a59159cceac87ec, type: 3}
+  disappearSound: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
 --- !u!82 &3092127823000526451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -141,7 +142,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ce7a301fb47c79043a59159cceac87ec, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -227,6 +228,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &706050773882702363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467302403643773937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adc618d4503f3c408d27f3e64d5db52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySusurros
+  audioSource: {fileID: 0}
+  enemyTag: enemy
+  detectionRange: 5
 --- !u!1 &4025738549343132535
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,19 +9,18 @@ public class SpawnEnemy : MonoBehaviour
     public float timeLife = 5;
 
     //[Header("Audio")]
-    //public AudioClip disappearSound; // arrastra tu clip aquí en el inspector
+    //public AudioClip disappearSound; 
     //private AudioSource audioSource;
 
     private GameObject instanceObject;
 
     void Start()
     {
-        // Añadimos un AudioSource al objeto que tiene este script
+        
         //audioSource = gameObject.AddComponent<AudioSource>();
 
         instanceObject = Instantiate(enemyPrefab, transform.position, transform.rotation);
 
-        // Se desactiva después de cierto tiempo
         StartCoroutine(DesactivatePostTime(instanceObject, timeLife));
     }
 
