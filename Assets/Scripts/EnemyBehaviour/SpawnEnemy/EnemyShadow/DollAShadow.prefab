@@ -100,7 +100,7 @@ MonoBehaviour:
   maxContador: 100
   deactivateEnemy: 15
   increaseRange: 1
-  decreaseRange: 10.16
+  decreaseRange: 1
   player: {fileID: 0}
   chaseSpeed: 3
 --- !u!114 &-4906910819958822091

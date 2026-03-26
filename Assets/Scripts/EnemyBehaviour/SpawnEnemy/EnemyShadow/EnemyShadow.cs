@@ -10,15 +10,25 @@ public class EnemyShadow : MonoBehaviour
     public float decreaseRange = 1f;
 
     [Header("Movimiento")]
-    public Transform player;
+    private Transform player;       // ya no se asigna en el inspector
     public float chaseSpeed = 3f;
     private bool isChasing = false;
 
-    private bool touchedByRaycast = false; 
+    private bool touchedByRaycast = false;
+
+    void Start()
+    {
+        // Busca automáticamente el objeto con tag "Player"
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+    }
 
     void Update()
     {
-        if(touchedByRaycast)
+        if (touchedByRaycast)
         {
             contador = Mathf.Min(contador + increaseRange * Time.deltaTime, maxContador);
         }
@@ -29,22 +39,23 @@ public class EnemyShadow : MonoBehaviour
 
         touchedByRaycast = false;
 
-       
         if (contador >= maxContador)  // Si contador llega a 100 persigue a player
         {
             isChasing = true;
         }
 
-        
-        if (contador <= deactivateEnemy) // Si contador baja de 50 desactiva enemy
+        if (contador <= deactivateEnemy) // Si contador baja de 15 desactiva enemy
         {
             gameObject.SetActive(false);
         }
 
-        
         if (isChasing && player != null)
         {
-            transform.position = Vector3.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                player.position,
+                chaseSpeed * Time.deltaTime
+            );
         }
     }
 
