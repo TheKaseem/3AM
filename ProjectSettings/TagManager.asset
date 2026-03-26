@@ -8,6 +8,11 @@ TagManager:
   - targetToy
   - Key
   - Enemy
+  - Recorder
+  - Cassette
+  - Knife
+  - Rice
+  - Doll
   layers:
   - Default
   - TransparentFX
