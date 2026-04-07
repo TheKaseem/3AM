@@ -1,37 +1,30 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Vida")]
-    public float maxHealth = 100f;
-    public float currentHealth;
+    public int lifePoints = 100;
+    
 
     [Header("UI")]
-    public Image healthFill; 
+    public TextMeshProUGUI pointsText; 
 
     void Start()
     {
-        currentHealth = maxHealth;
+
         UpdateHealthUI();
     }
 
-    public void TakeDamage(float amount)
+    public void TakeDamage(int amount)
     {
-        currentHealth = Mathf.Max(currentHealth - amount, 0f);
+        lifePoints += amount;
         UpdateHealthUI();
-
-        if (currentHealth <= 0f)
-        {
-            Debug.Log("muelto");
-        }
     }
 
     void UpdateHealthUI()
     {
-        if (healthFill != null)
-        {
-            healthFill.fillAmount = currentHealth / maxHealth;
-        }
+        pointsText.text = lifePoints.ToString();
     }
 }
