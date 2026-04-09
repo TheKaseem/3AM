@@ -24,14 +24,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88113273981428804}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6207953444272758186}
   m_Father: {fileID: 9206886413160428860}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!1 &467302403643773937
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,8 +44,8 @@ GameObject:
   - component: {fileID: 8709851195311181682}
   - component: {fileID: 4317336706613372232}
   - component: {fileID: 4753107293093779957}
-  - component: {fileID: 3092127823000526451}
   - component: {fileID: 706050773882702363}
+  - component: {fileID: 3092127823000526451}
   m_Layer: 0
   m_Name: DollATraslucent
   m_TagString: Enemy
@@ -61,7 +61,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467302403643773937}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.612, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -69,7 +69,7 @@ Transform:
   - {fileID: 4126187357150526630}
   - {fileID: 4731026915853154806}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &8709851195311181682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,6 +131,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TraslucidEnemy
   disappearSound: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
+  player: {fileID: 0}
+--- !u!114 &706050773882702363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467302403643773937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adc618d4503f3c408d27f3e64d5db52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySusurros
+  audioSource: {fileID: 3092127823000526451}
+  detectionRange: 5
 --- !u!82 &3092127823000526451
 AudioSource:
   m_ObjectHideFlags: 0
@@ -228,20 +243,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &706050773882702363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467302403643773937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5adc618d4503f3c408d27f3e64d5db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemySusurros
-  audioSource: {fileID: 3092127823000526451}
-  detectionRange: 5
 --- !u!1 &4025738549343132535
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +291,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
