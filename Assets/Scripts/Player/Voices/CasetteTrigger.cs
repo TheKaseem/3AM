@@ -8,6 +8,7 @@ public class CasetteTrigger : MonoBehaviour
 
     [Header("Object Post Event")]
     public GameObject doll;
+    public GameObject dollA;
 
     private bool hasPlayed = false;
 
@@ -15,6 +16,7 @@ public class CasetteTrigger : MonoBehaviour
     void Start()
     {
         doll.SetActive(false);
+        dollA.SetActive(true);
     }
 
 
@@ -27,6 +29,7 @@ public class CasetteTrigger : MonoBehaviour
             {
                 audioSource.PlayOneShot(cassetteSound);
                 hasPlayed = true;
+                dollA.SetActive(false);
                 doll.SetActive(true);
             }
 
