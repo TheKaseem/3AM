@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -26,5 +27,11 @@ public class PlayerHealth : MonoBehaviour
     void UpdateHealthUI()
     {
         pointsText.text = lifePoints.ToString();
+
+        if (lifePoints >= 180)
+        {
+            SceneManager.LoadScene("Stairs");
+            // Reemplaza "NombreDeTuEscena" con el nombre exacto de la escena que quieres cargar
+        }
     }
 }

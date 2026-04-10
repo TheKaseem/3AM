@@ -99,9 +99,9 @@ MonoBehaviour:
   contador: 65
   maxContador: 100
   deactivateEnemy: 15
-  increaseRange: 1
-  decreaseRange: 1
-  chaseSpeed: 3
+  increaseRange: 10
+  decreaseRange: 10
+  chaseSpeed: 4
 --- !u!114 &-4906910819958822091
 MonoBehaviour:
   m_ObjectHideFlags: 0

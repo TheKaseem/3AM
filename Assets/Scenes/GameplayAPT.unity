@@ -5162,7 +5162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   lifePoints: 100
-  pointsText: {fileID: 0}
+  pointsText: {fileID: 2084555903}
 --- !u!54 &441087510
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12872,6 +12872,11 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!4 &998765924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7129726397348273453, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+  m_PrefabInstance: {fileID: 1916027632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1007038267
 GameObject:
   m_ObjectHideFlags: 0
@@ -18291,6 +18296,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 761187056149873997, guid: f920163421f537643a94fbbfe25244f9, type: 3}
   m_PrefabInstance: {fileID: 1569714430}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1570932686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7535638902646572278, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+  m_PrefabInstance: {fileID: 1916027632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1573148478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19329,6 +19339,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587447710}
   m_Mesh: {fileID: -5358105884385832963, guid: cb07ca870cf1d5444b85ea4e3ee49a58, type: 3}
+--- !u!4 &1601389351 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6845581373130226447, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+  m_PrefabInstance: {fileID: 1916027632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1611110212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22015,6 +22030,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.722
       objectReference: {fileID: 0}
+    - target: {fileID: 2481346322093344301, guid: 96fd6bcb8fd07d24dace3b725d8b8e8a, type: 3}
+      propertyPath: spawnInterval
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4448854425445823865, guid: 96fd6bcb8fd07d24dace3b725d8b8e8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.03
@@ -22082,6 +22101,10 @@ PrefabInstance:
     - target: {fileID: 8161164348683020732, guid: 96fd6bcb8fd07d24dace3b725d8b8e8a, type: 3}
       propertyPath: m_Name
       value: SpawnerShadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161164348683020732, guid: 96fd6bcb8fd07d24dace3b725d8b8e8a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9159715331583400170, guid: 96fd6bcb8fd07d24dace3b725d8b8e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22838,11 +22861,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6845581373130226447, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.604
+      value: -10.27
       objectReference: {fileID: 0}
     - target: {fileID: 6845581373130226447, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.984
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 7017569405152078769, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22860,6 +22883,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5.83
       objectReference: {fileID: 0}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: spawnInterval
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: spawnPoints.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: 'spawnPoints.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1601389351}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: 'spawnPoints.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1570932686}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: 'spawnPoints.Array.data[3]'
+      value: 
+      objectReference: {fileID: 998765924}
+    - target: {fileID: 7228726541225061556, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: 'spawnPoints.Array.data[4]'
+      value: 
+      objectReference: {fileID: 998765924}
     - target: {fileID: 7535638902646572278, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.33
@@ -22869,7 +22916,9 @@ PrefabInstance:
       value: 3.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8885412318725469077, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+    - {fileID: 6805201219192219074, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
@@ -24785,6 +24834,17 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!114 &2084555903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1522360026364896375, guid: 8f71027e138cc7440ac53bc10d7cb02f, type: 3}
+  m_PrefabInstance: {fileID: 271273795}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &2085987507
 PrefabInstance:
   m_ObjectHideFlags: 0
