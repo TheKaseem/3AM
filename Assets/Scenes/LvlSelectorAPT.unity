@@ -1262,7 +1262,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 1
   m_Range: 5
   m_SpotAngle: 30
@@ -1308,7 +1308,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.711649e-20, y: 4.59239e-40, z: 2.069e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.4e-44, y: -7.721962e+19, z: 1.02799e-40, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -5253,7 +5253,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -7732,7 +7732,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -7778,7 +7778,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.0000023908444, y: 9.102061e-12, z: 1.10171565e+24, w: 42062240}
+  m_BoundingSphereOverride: {x: 0.000000037356944, y: 9.102061e-12, z: 1.10171565e+24, w: 42062240}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -8231,8 +8231,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
+  m_Intensity: 4
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8277,7 +8277,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.0000023908444, y: 9.102061e-12, z: 1.10171565e+24, w: 42062240}
+  m_BoundingSphereOverride: {x: 6.2097996e+22, y: 7.7140256e+31, z: 538860700, w: 3.9415303e+12}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -8358,7 +8358,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 1
   m_Range: 5
   m_SpotAngle: 30
@@ -8404,7 +8404,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.2097996e+22, y: 7.7140256e+31, z: 538860700, w: 3.9415303e+12}
+  m_BoundingSphereOverride: {x: 1.0266e-41, y: 1.8175745e+31, z: 1.8007913e+25, w: 1.1775889e+10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9533,7 +9533,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 0.5
   m_Range: 5
   m_SpotAngle: 30
@@ -9579,7 +9579,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -9.1835e-41, y: 0, z: 0, w: 9.1835e-41}
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 2.7105054e-20, w: 2.112322e-39}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10080,7 +10080,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 5
   m_Range: 5
   m_SpotAngle: 75.102005
@@ -10126,7 +10126,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4e-45, y: 2.6138752e-27, z: 4e-45, w: 0}
+  m_BoundingSphereOverride: {x: -1.114e-42, y: 6e-45, z: 2.1e-44, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10622,8 +10622,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
+  m_Intensity: 4
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10668,7 +10668,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.8543344e+11, y: 1.8470472e+25, z: 1.6334567e+10, w: 0.00088674395}
+  m_BoundingSphereOverride: {x: -6.9e-44, y: NaN, z: 2.1e-44, w: 2.296e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -11071,7 +11071,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 5
   m_Range: 5
   m_SpotAngle: 75.102005
@@ -11117,7 +11117,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4e-45, y: 2.6138752e-27, z: 4e-45, w: 0}
+  m_BoundingSphereOverride: {x: -1.49e-43, y: NaN, z: 2.1e-44, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -13390,7 +13390,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -13436,7 +13436,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.615e-42, y: 5.111755e-16, z: 1e-45, w: 2.17e-43}
+  m_BoundingSphereOverride: {x: 1e-45, y: 1.2018509, z: 1e-45, w: 3.5e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -13985,7 +13985,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -14031,7 +14031,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.7996e-41, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.306e-42, y: 4e-45, z: 0, w: -0.0078125}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14174,7 +14174,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 0.5
   m_Range: 5
   m_SpotAngle: 30
@@ -14220,7 +14220,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -1.114e-42, y: 6e-45, z: 2.1e-44, w: 1e-45}
+  m_BoundingSphereOverride: {x: 1.0074e-41, y: 4.4587233e+33, z: 1e-45, w: 1.03337e-40}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -18285,7 +18285,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -18331,7 +18331,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.00000000233163, y: 0.000950339, z: 5.361547e-20, w: 6.244919e-39}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -19851,7 +19851,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 0.5
   m_Range: 5
   m_SpotAngle: 30
@@ -19897,7 +19897,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.83733e-40}
+  m_BoundingSphereOverride: {x: 2.5073e-41, y: -1.9038887e-23, z: 4e-45, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -22339,7 +22339,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -22385,7 +22385,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -1.49e-43, y: NaN, z: 2.1e-44, w: 4.5918e-41}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -23920,7 +23920,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 2
   m_Range: 5
   m_SpotAngle: 30
@@ -23966,7 +23966,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.6172e-41, y: 0, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -24052,7 +24052,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 5
   m_Range: 5
   m_SpotAngle: 75.102005
@@ -24098,7 +24098,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4e-45, y: 2.6138752e-27, z: 4e-45, w: 0}
+  m_BoundingSphereOverride: {x: 3.0972774e+27, y: 1.8169361e+31, z: 1.7657412e+22, w: 5.8290645e-10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -25864,7 +25864,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -28389,7 +28389,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.82676035, b: 0.6462264, a: 1}
   m_Intensity: 0.5
   m_Range: 5
   m_SpotAngle: 30
@@ -28435,7 +28435,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1e-45, y: 1.759531e+29, z: 1e-45, w: 0}
+  m_BoundingSphereOverride: {x: 3.0972774e+27, y: 1.8169361e+31, z: 1.7657412e+22, w: 5.8290645e-10}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -36254,7 +36254,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -40128,7 +40128,7 @@ Transform:
   m_GameObject: {fileID: 8238929566561473839}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0986727, z: -0, w: 0.9951199}
-  m_LocalPosition: {x: -4.897, y: 0.964, z: -6.88}
+  m_LocalPosition: {x: -4.812, y: 0.964, z: -6.7902}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44136,7 +44136,7 @@ Transform:
   m_GameObject: {fileID: 4036742964696632211}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0.000000053385076, z: -0.70710677, w: 0.000000053385083}
-  m_LocalPosition: {x: 0.0016636848, y: 0.046000004, z: 0.09079838}
+  m_LocalPosition: {x: -0.06404598, y: 0.046000004, z: -0.0139453}
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48337,7 +48337,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1

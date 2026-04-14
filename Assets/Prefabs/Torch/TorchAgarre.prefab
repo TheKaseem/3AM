@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883892278208881577}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9600464, z: -0, w: -0.279841}
+  m_LocalRotation: {x: 0, y: 0.9600475, z: -0, w: -0.2798373}
   m_LocalPosition: {x: -0.878, y: 3.5644, z: 12.467}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
