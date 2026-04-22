@@ -1,11 +1,7 @@
 fileFormatVersion: 2
-guid: 7769f33fb4fa2e5458344a36556ad760
+guid: 05710bb67de310049b05a02325fdf904
 DefaultImporter:
+  externalObjects: {}
   userData: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 35361
-  packageName: Fantasy Forest Environment - Free Demo
-  packageVersion: 2.0
-  assetPath: Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity
-  uploadId: 321497
+  assetBundleName: 
+  assetBundleVariant: 
