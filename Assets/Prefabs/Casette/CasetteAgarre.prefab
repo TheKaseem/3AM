@@ -352,7 +352,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -401,6 +401,7 @@ MonoBehaviour:
   m_MaxAngularVelocityDelta: 20
   grabClip: {fileID: 8300000, guid: f3e9aa881795f432a8651e752988b2bf, type: 3}
   playerVoice: {fileID: 0}
+  objectToAppear: {fileID: 0}
   alreadyPlayed: 0
 --- !u!1 &7336213151752878055
 GameObject:
