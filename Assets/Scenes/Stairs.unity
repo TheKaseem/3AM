@@ -2291,6 +2291,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VideoCamAgarreRaycast
       objectReference: {fileID: 0}
+    - target: {fileID: 2205801795770795883, guid: 8f71027e138cc7440ac53bc10d7cb02f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205801795770795883, guid: 8f71027e138cc7440ac53bc10d7cb02f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4001174108342000573, guid: 8f71027e138cc7440ac53bc10d7cb02f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.389
@@ -22900,10 +22908,6 @@ PrefabInstance:
       propertyPath: objectToAppear
       value: 
       objectReference: {fileID: 510460666}
-    - target: {fileID: 4494518545047109957, guid: f5cae8edf3521a546b0f46654f36cc52, type: 3}
-      propertyPath: m_AttachTransform
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4494518545047109957, guid: f5cae8edf3521a546b0f46654f36cc52, type: 3}
       propertyPath: m_InteractionManager
       value: 
