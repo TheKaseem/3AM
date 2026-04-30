@@ -22745,6 +22745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnerTraslucent
       objectReference: {fileID: 0}
+    - target: {fileID: 6441873390033146306, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6845581373130226447, guid: a98a182cb19727047916f2e7da026ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.27

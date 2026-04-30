@@ -98,9 +98,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShadow
   contador: 65
   maxContador: 100
-  deactivateEnemy: 15
+  deactivateEnemy: 2
   increaseRange: 10
-  decreaseRange: 10
+  decreaseRange: 2
   chaseSpeed: 4
 --- !u!114 &-4906910819958822091
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbbb89dc58125c045bbda0ae8661e756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  damageAmount: 25
+  damageAmount: 15
 --- !u!1 &2814527821846067259
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,7 +181,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 17030de3b01ea674ca4ccec149d76284, type: 2}
+  - {fileID: 2100000, guid: 255490674a6e9a04793e5d38858c3068, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
