@@ -33792,10 +33792,10 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.2
-  m_Speed: 2
-  m_Acceleration: 5
+  m_Speed: 1
+  m_Acceleration: 2.5
   avoidancePriority: 50
-  m_AngularSpeed: 60
+  m_AngularSpeed: 30
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -33852,7 +33852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e4fd5108785644438729bb281da4caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: LvlSelectorAPT
+  scene: MenuScene
   tag: Player
   useLoadingScene: 1
 --- !u!82 &7628741631324338835
@@ -33879,7 +33879,7 @@ AudioSource:
   MinDistance: 3
   MaxDistance: 6
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -33893,17 +33893,17 @@ AudioSource:
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -2
+      outSlope: -2
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -33959,7 +33959,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7628741631324338830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ef50ab8a404ea644bf2093d13f67600, type: 3}
   m_Name: 
@@ -33967,7 +33967,7 @@ MonoBehaviour:
   player: {fileID: 920654827}
   maxDistance: 10
   minVolume: 0
-  maxVolume: 1
+  maxVolume: 100
 --- !u!4 &7637129367284079531
 Transform:
   m_ObjectHideFlags: 0
