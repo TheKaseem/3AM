@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (lifePoints >= 180)
         {
-            SceneManager.LoadScene("LvlSelectorAPT");
+            SceneManager.LoadScene("MenuScene");
             // Reemplaza "NombreDeTuEscena" con el nombre exacto de la escena que quieres cargar
         }
     }

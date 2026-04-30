@@ -24,6 +24,8 @@ public class EnemyShadow : MonoBehaviour
         {
             player = playerObj.transform;
         }
+
+        LookPlayer();
     }
 
     void Update()
@@ -70,5 +72,18 @@ public class EnemyShadow : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+    }
+
+    void LookPlayer()
+    {
+        transform.LookAt(player);
+
+        // Busca al objeto con el tag "Player" en la escena
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+
     }
 }

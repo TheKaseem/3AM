@@ -109,7 +109,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1217581745689492425
 Transform:
   m_ObjectHideFlags: 0
@@ -144,14 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnEnemyTraslucent
   enemyPrefab: {fileID: 467302403643773937, guid: 34c6b11d154c2434eb5f551ffac1959c, type: 3}
-  timeLife: 5
-  spawnPoints:
-  - {fileID: 3339430743883554338}
-  - {fileID: 7017569405152078769}
-  - {fileID: 6845581373130226447}
-  - {fileID: 7535638902646572278}
-  - {fileID: 4313150035094284835}
-  - {fileID: 7129726397348273453}
+  spawnPoints: []
   spawnInterval: 5
 --- !u!1 &6455873150639050897
 GameObject:

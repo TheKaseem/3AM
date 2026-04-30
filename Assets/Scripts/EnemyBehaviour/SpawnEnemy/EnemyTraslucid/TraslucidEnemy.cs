@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -10,7 +11,8 @@ public class TraslucidEnemy : MonoBehaviour
 
     [Header("LookAt Player")]
     public Transform player;
-    
+
+    public float desactivateTime = 5f;
 
     private void Start()
     {
@@ -18,6 +20,8 @@ public class TraslucidEnemy : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
 
         LookPlayer();
+
+        Invoke(nameof(DisableEnemy), desactivateTime);
     }
 
     private void Update()
@@ -54,5 +58,9 @@ public class TraslucidEnemy : MonoBehaviour
         }
 
     }
-    
+
+    void DisableEnemy()
+    {
+        gameObject.SetActive(false);
+    }
 }
