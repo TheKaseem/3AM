@@ -5366,7 +5366,7 @@ MonoBehaviour:
   m_ParentInteractableObject: {fileID: 0}
   m_AttachTransform: {fileID: 412495296}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 1
+  m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -15408,7 +15408,6 @@ GameObject:
   - component: {fileID: 1022826773}
   - component: {fileID: 1022826772}
   - component: {fileID: 1022826771}
-  - component: {fileID: 1022826775}
   m_Layer: 0
   m_Name: Sound Disappear Trigger
   m_TagString: Untagged
@@ -15443,7 +15442,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ec9b441401a37461eb1f32e0358143c9, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -15606,18 +15605,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022826769}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1022826775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022826769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2938ff689e073449637457ae9be065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
 --- !u!1001 &1026296715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27623,7 +27610,6 @@ GameObject:
   - component: {fileID: 1894912840}
   - component: {fileID: 1894912839}
   - component: {fileID: 1894912842}
-  - component: {fileID: 1894912843}
   m_Layer: 0
   m_Name: Sound Appear Trigger
   m_TagString: Untagged
@@ -27736,7 +27722,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d3ac40e41aab7446bbe5a638011c8de2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -27821,18 +27807,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1894912843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894912837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2938ff689e073449637457ae9be065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioTrigger
 --- !u!1001 &1899461826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28288,7 +28262,7 @@ MonoBehaviour:
   m_ParentInteractableObject: {fileID: 0}
   m_AttachTransform: {fileID: 1928564588}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 1
+  m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -53884,8 +53858,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CasetteTrigger
   disappearTrigger: {fileID: 1022826769}
   appearTrigger: {fileID: 1894912837}
-  recorderVoice: {fileID: 423578}
-  cassetteSound: {fileID: 8300000, guid: 4ea049d8d8d524006b7ad06fa4b31181, type: 3}
+  recorderVoice: {fileID: 0}
+  cassetteSound: {fileID: 0}
+  cassetteSoundDisappear: {fileID: 8300000, guid: d3ac40e41aab7446bbe5a638011c8de2, type: 3}
+  cassetteSoundAppear: {fileID: 8300000, guid: ec9b441401a37461eb1f32e0358143c9, type: 3}
   doll: {fileID: 8238929566561473839}
   dollA: {fileID: 5005059151180749229}
 --- !u!95 &7132624493304431767
