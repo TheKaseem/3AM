@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8649e64530903104193ee365cda6042b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShadow
-  contador: 65
+  contador: 80
   maxContador: 100
   deactivateEnemy: 2
   increaseRange: 10
