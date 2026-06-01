@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Light))]
 public class RaycastLight : MonoBehaviour
 {
-    public Transform target; // Objeto a detectar
-    public float maxDistance = 10f; // Distancia máxima del raycast
+    public Transform target; 
+    public float maxDistance = 10f; 
 
     private Light myLight;
 
@@ -21,10 +21,9 @@ public class RaycastLight : MonoBehaviour
             return;
         }
 
-        Vector3 direction = Vector3.down; // Siempre hacia abajo
+        Vector3 direction = Vector3.down; 
         RaycastHit hit;
 
-        // Dibuja el raycast en la escena (verde si golpea el objetivo, rojo si no)
         Color rayColor = Color.red;
         if (Physics.Raycast(transform.position, direction, out hit, maxDistance))
         {
