@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (lifePoints >= 180)
         {
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene("DeathScene");
         }
     }
 }
