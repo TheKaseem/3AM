@@ -16,8 +16,11 @@ public class EnemyShadow : MonoBehaviour
 
     private bool touchedByRaycast = false;
 
-    void Start()
+  
+
+    private void Start()
     {
+
         // Busca automáticamente el objeto con tag "Player"
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
@@ -25,7 +28,7 @@ public class EnemyShadow : MonoBehaviour
             player = playerObj.transform;
         }
 
-        LookPlayer();
+
     }
 
     void Update()

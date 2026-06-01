@@ -132,7 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TraslucidEnemy
   disappearSound: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
   player: {fileID: 0}
-  desactivateTime: 10
+  desactivateTime: 20
 --- !u!114 &706050773882702363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3866052205532303605}
   serializedVersion: 8
-  lengthInSec: 4
+  lengthInSec: 6
   simulationSpeed: 0.5
   stopAction: 0
   cullingMode: 0
