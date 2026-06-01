@@ -434,6 +434,37 @@ Transform:
   - {fileID: 1831029008}
   m_Father: {fileID: 2140100279}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &412113834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412113835}
+  m_Layer: 0
+  m_Name: PuntoA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &412113835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412113834}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.73, y: 1.4008, z: 0.3988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &414174204
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +798,56 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1246126459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &476541760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476541762}
+  - component: {fileID: 476541761}
+  m_Layer: 0
+  m_Name: ConfBoton (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &476541761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476541760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efec9c5642b92f14c9ad78f3ffc0a1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleAnimation
+  sceneName: LvlSelectorAPT
+  audioSource: {fileID: 1932337840}
+  clickSound: {fileID: 8300000, guid: eeeda5dce5e1d344f8e2f6195f16cb38, type: 3}
+  objeto: {fileID: 1313937084}
+  puntoDestino: {fileID: 412113835}
+  duracion: 2
+--- !u!4 &476541762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476541760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.558, y: 1.9101, z: 1.33706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542154727
 GameObject:
@@ -1381,6 +1462,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902683587}
   m_CullTransparentMesh: 1
+--- !u!1 &939928600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 939928602}
+  - component: {fileID: 939928601}
+  m_Layer: 0
+  m_Name: ConfBoton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &939928601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939928600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efec9c5642b92f14c9ad78f3ffc0a1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleAnimation
+  sceneName: MenuScene
+  audioSource: {fileID: 1932337840}
+  clickSound: {fileID: 8300000, guid: eeeda5dce5e1d344f8e2f6195f16cb38, type: 3}
+  objeto: {fileID: 1313937084}
+  puntoDestino: {fileID: 412113835}
+  duracion: 2
+--- !u!4 &939928602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939928600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.558, y: 1.9101, z: 1.33706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962691939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,7 +1800,6 @@ GameObject:
   - component: {fileID: 1235016382}
   - component: {fileID: 1235016381}
   - component: {fileID: 1235016380}
-  - component: {fileID: 1235016383}
   m_Layer: 5
   m_Name: RestartBttn
   m_TagString: Untagged
@@ -1740,7 +1870,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1235016381}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 476541761}
+        m_TargetAssemblyTypeName: SimpleAnimation, Assembly-CSharp
+        m_MethodName: StartAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1235016381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1779,24 +1921,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235016377}
   m_CullTransparentMesh: 1
---- !u!114 &1235016383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235016377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efec9c5642b92f14c9ad78f3ffc0a1e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleAnimation
-  sceneName: LvlSelectorAPT
-  audioSource: {fileID: 1932337840}
-  clickSound: {fileID: 8300000, guid: eeeda5dce5e1d344f8e2f6195f16cb38, type: 3}
-  objeto: {fileID: 1313937084}
-  destinoJugador: {fileID: 1612283906}
-  duracion: 2
 --- !u!1 &1246126458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,8 +2062,8 @@ Transform:
   m_GameObject: {fileID: 1313937080}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 9.558, y: 1.682, z: 0.3887}
-  m_LocalScale: {x: 0.26524648, y: 0.2, z: 0.3966223}
+  m_LocalPosition: {x: 9.558, y: 1.4008, z: 0.3988}
+  m_LocalScale: {x: 0.68285626, y: 0.2, z: 0.7809718}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2140,11 +2264,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1612283906 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1784073087414233329, guid: f293787f55b3b42408928dbe9085342f, type: 3}
-  m_PrefabInstance: {fileID: 270360875}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1629943917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2445,7 +2564,6 @@ GameObject:
   - component: {fileID: 1953811317}
   - component: {fileID: 1953811316}
   - component: {fileID: 1953811315}
-  - component: {fileID: 1953811318}
   m_Layer: 5
   m_Name: MenuBttn
   m_TagString: Untagged
@@ -2516,7 +2634,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1953811316}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 939928601}
+        m_TargetAssemblyTypeName: SimpleAnimation, Assembly-CSharp
+        m_MethodName: StartAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1953811316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,24 +2685,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953811313}
   m_CullTransparentMesh: 1
---- !u!114 &1953811318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953811313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efec9c5642b92f14c9ad78f3ffc0a1e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleAnimation
-  sceneName: MenuScene
-  audioSource: {fileID: 1932337840}
-  clickSound: {fileID: 8300000, guid: eeeda5dce5e1d344f8e2f6195f16cb38, type: 3}
-  objeto: {fileID: 1313937084}
-  destinoJugador: {fileID: 1612283906}
-  duracion: 2
 --- !u!1 &2015135817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 608a387e008919a4b9ab7446273e0391, type: 3}
@@ -2899,3 +3011,6 @@ SceneRoots:
   - {fileID: 439404419}
   - {fileID: 1535693250}
   - {fileID: 1313937084}
+  - {fileID: 939928602}
+  - {fileID: 476541762}
+  - {fileID: 412113835}
