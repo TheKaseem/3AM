@@ -570,7 +570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 537702686457146905, guid: 12150b01c710637459517d642f98642b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5290318624294997681, guid: 12150b01c710637459517d642f98642b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -612,6 +612,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8841314645948497560, guid: 12150b01c710637459517d642f98642b, type: 3}
+      propertyPath: disappearSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1394,6 +1398,7 @@ MonoBehaviour:
   increaseRange: 1
   decreaseRange: 1
   chaseSpeed: 3
+  disappearSound: {fileID: 0}
 --- !u!114 &8593229578015991765
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,10 +16,17 @@ public class EnemyShadow : MonoBehaviour
 
     private bool touchedByRaycast = false;
 
-  
+    [Header("Audio")]
+    private AudioSource audioSource;
+
+    public AudioClip disappearSound;
+
+
 
     private void Start()
     {
+        audioSource = gameObject.AddComponent<AudioSource>();
+
 
         // Busca automáticamente el objeto con tag "Player"
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -73,6 +80,9 @@ public class EnemyShadow : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioSource.PlayClipAtPoint(disappearSound, Camera.main.transform.position);
+
+
             gameObject.SetActive(false);
         }
     }
