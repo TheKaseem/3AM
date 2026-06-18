@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f1c9e1de621b946850d925114e9619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AmbientLoading
-  minWaitTime: 5
+  minWaitTime: 2
 --- !u!1 &1526820364
 GameObject:
   m_ObjectHideFlags: 0
