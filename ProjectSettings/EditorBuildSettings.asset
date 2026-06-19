@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameplayAPT.unity
     guid: e43bc59059870904a9f9a4a946aa74d3
   - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 3514336ad48b6b04db16fa4fc5654ca5
+  - enabled: 1
     path: Assets/Scenes/DeathScene.unity
     guid: 05710bb67de310049b05a02325fdf904
   - enabled: 1
