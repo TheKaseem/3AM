@@ -22,16 +22,16 @@ public class PhoneController : MonoBehaviour
     [Header("Reactivation Settings")]
     public float reactivationTime = 15f;
 
-    private bool isOn = true;
+    private bool isOn = false;
 
     void Start()
     {
-        if (phoneAudioSource != null && ringClip != null)
+        if (phoneAudioSource != null)
         {
-            phoneAudioSource.clip = ringClip;
-            phoneAudioSource.loop = true;
-            phoneAudioSource.Play();
+            phoneAudioSource.Stop();
         }
+
+        StartCoroutine(ReactivatePhoneAfterTime());
     }
 
     void Update()
@@ -41,7 +41,7 @@ public class PhoneController : MonoBehaviour
 
         float distance = Vector3.Distance(player.transform.position, transform.position);
 
-        if (!isOn) return;
+        if (!isOn || GlobalEventManager.EventActive) return;
 
         if (distance <= probabilityDistance && distance > forcedOffDistance)
         {
@@ -59,6 +59,8 @@ public class PhoneController : MonoBehaviour
 
     void TurnOffPhone()
     {
+        if (GlobalEventManager.EventActive) return;
+
         isOn = false;
         phoneAudioSource.Stop();
         Debug.Log("Telephone is off.");
@@ -68,7 +70,8 @@ public class PhoneController : MonoBehaviour
             enemySpawner.SpawnEnemy();
         }
 
-   
+        GlobalEventManager.EventActive = true;
+
         StartCoroutine(ReactivatePhoneAfterTime());
     }
 
@@ -84,8 +87,12 @@ public class PhoneController : MonoBehaviour
             phoneAudioSource.Play();
         }
 
+
+        GlobalEventManager.EventActive = false;
+
         Debug.Log("Telephone is on.");
     }
+
 
     void OnDrawGizmosSelected()
     {
