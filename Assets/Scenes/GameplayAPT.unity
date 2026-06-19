@@ -12880,7 +12880,7 @@ Transform:
   m_GameObject: {fileID: 920654826}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.38268274, z: -0, w: 0.9238798}
-  m_LocalPosition: {x: 3.9, y: 0, z: 6.81}
+  m_LocalPosition: {x: -1.15, y: 0, z: 1.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37473,7 +37473,6 @@ GameObject:
   - component: {fileID: 7628741631324338831}
   - component: {fileID: 7628741631324338832}
   - component: {fileID: 7628741631324338833}
-  - component: {fileID: 7628741631324338834}
   - component: {fileID: 7628741631324338835}
   - component: {fileID: 7628741631324338836}
   m_Layer: 0
@@ -37541,21 +37540,6 @@ MonoBehaviour:
   walkSpeed: 2
   chaseSpeed: 8
   detectionRange: 10
---- !u!114 &7628741631324338834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7628741631324338830}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e4fd5108785644438729bb281da4caf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: DeathScene
-  tag: Player
-  useLoadingScene: 1
 --- !u!82 &7628741631324338835
 AudioSource:
   m_ObjectHideFlags: 0
