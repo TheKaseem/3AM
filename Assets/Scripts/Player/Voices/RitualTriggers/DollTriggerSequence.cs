@@ -4,11 +4,9 @@ using System.Collections;
 
 public class DollTriggerSequence : MonoBehaviour
 {
-    [Header("Puerta")]
-    public GameObject puerta;
-    public Vector3 rotationAxis = Vector3.up;
-    public float rotationDegrees = 90f;
-    public float rotationDuration = 2f;
+    [Header("Puertas")]
+    public GameObject door1;
+    public GameObject doorSlamed;
     public AudioSource puertaAudio;
 
     [Header("Luces")]
@@ -30,6 +28,12 @@ public class DollTriggerSequence : MonoBehaviour
 
     private bool triggered = false;
 
+    void Start()
+    {
+        if (door1 != null) door1.SetActive(true);
+        if (doorSlamed != null) doorSlamed.SetActive(false);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (!triggered && other.CompareTag("Doll"))
@@ -41,21 +45,10 @@ public class DollTriggerSequence : MonoBehaviour
 
     private IEnumerator Sequence()
     {
-        if (puerta != null)
-        {
-            Quaternion startRot = puerta.transform.localRotation;
-            Quaternion endRot = startRot * Quaternion.AngleAxis(rotationDegrees, rotationAxis);
-            float t = 0;
-            if (puertaAudio != null) puertaAudio.PlayOneShot(puertaAudio.clip);
-            while (t < rotationDuration)
-            {
-                t += Time.deltaTime;
-                puerta.transform.localRotation = Quaternion.Slerp(startRot, endRot, t / rotationDuration);
-                yield return null;
-            }
-        }
+        if (door1 != null) door1.SetActive(false);
+        if (doorSlamed != null) doorSlamed.SetActive(true);
 
-
+        if (puertaAudio != null) puertaAudio.PlayOneShot(puertaAudio.clip);
 
         if (luces != null && luces.Length > 0)
         {
