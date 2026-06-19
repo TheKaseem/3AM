@@ -1728,7 +1728,7 @@ MonoBehaviour:
   alturaMaxima: 23
   tiempoDesactivacion: 1
   tiempoEspera: 2
-  audioVuelo: {fileID: 8300000, guid: 19a5c9e1112853f47bd74450d890d2bb, type: 3}
+  audioVuelo: {fileID: 8300000, guid: 0993a6e357c03df40a804a247ccda855, type: 3}
 --- !u!82 &439404421
 AudioSource:
   m_ObjectHideFlags: 0

@@ -8287,6 +8287,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5659660238912243111, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Name
+      value: TV Audio Living Room
+      objectReference: {fileID: 0}
     - target: {fileID: 7898699829176919298, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
       propertyPath: m_Name
       value: TV Living Room
@@ -8524,7 +8528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TVController
   staticGO: {fileID: 1286071656}
-  tvAudioSource: {fileID: 1052495350}
+  tvAudioSource: {fileID: 1286071655}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
   probabilityDistance: 6
@@ -19488,6 +19492,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5659660238912243111, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Name
+      value: TV Audio Room 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7898699829176919298, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
       propertyPath: m_Name
       value: TV Static Room 2
@@ -29994,6 +30002,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5659660238912243111, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Name
+      value: TV Audio Room 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7898699829176919298, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
       propertyPath: m_Name
       value: TV Static Room 1
@@ -30256,6 +30268,10 @@ PrefabInstance:
     - target: {fileID: 2036016918165468264, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659660238912243111, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Name
+      value: 'TV Audio Room3 '
       objectReference: {fileID: 0}
     - target: {fileID: 7898699829176919298, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
       propertyPath: m_Name
@@ -41207,7 +41223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TVController
   staticGO: {fileID: 603698093}
-  tvAudioSource: {fileID: 1052495350}
+  tvAudioSource: {fileID: 603698092}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
   probabilityDistance: 6
@@ -41248,7 +41264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TVController
   staticGO: {fileID: 2109283365}
-  tvAudioSource: {fileID: 1052495350}
+  tvAudioSource: {fileID: 2109283364}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
   probabilityDistance: 6
@@ -41612,10 +41628,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 869214990}
     m_Modifications:
-    - target: {fileID: 1267133331614592960, guid: 3b11bc68e685f71409a1951162e74921, type: 3}
-      propertyPath: m_Volume
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 2444080946133449852, guid: 3b11bc68e685f71409a1951162e74921, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.24

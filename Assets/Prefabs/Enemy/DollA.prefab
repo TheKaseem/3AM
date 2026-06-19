@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 3561813205806298672}
   - component: {fileID: 4498141633341659300}
   - component: {fileID: 9027398368843185106}
-  - component: {fileID: 9032716304363529412}
   m_Layer: 0
   m_Name: DollA
   m_TagString: Enemy
@@ -225,21 +224,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &9032716304363529412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2504861089486046700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e4fd5108785644438729bb281da4caf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TriggerSceneChange
-  scene: DeathScene
-  tag: Player
-  useLoadingScene: 1
 --- !u!1 &6170182398746152318
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +391,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.35
+  m_Volume: 0.8
   m_Pitch: 1.32
   Loop: 0
   Mute: 0
