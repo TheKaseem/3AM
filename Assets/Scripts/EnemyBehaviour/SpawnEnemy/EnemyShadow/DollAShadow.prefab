@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 561157305117271381}
   m_Layer: 10
   m_Name: DollAShadow
-  m_TagString: Enemy
+  m_TagString: Shadow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   deactivateEnemy: 2
   increaseRange: 10
   decreaseRange: 2
-  chaseSpeed: 4
+  chaseSpeed: 2.5
   disappearSound: {fileID: 8300000, guid: 3d85a0e6e6a75014f82d548665e31e65, type: 3}
 --- !u!114 &-4906910819958822091
 MonoBehaviour:

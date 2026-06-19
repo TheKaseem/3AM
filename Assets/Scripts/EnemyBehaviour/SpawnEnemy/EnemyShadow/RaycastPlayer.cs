@@ -15,7 +15,7 @@ public class RaycastPlayer : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit, detectionRange))
         {
             // Si golpea un objeto con tag y layer Enemy
-            if (hit.collider.CompareTag("Enemy"))
+            if (hit.collider.CompareTag("Shadow"))
             {
                 EnemyShadow enemy = hit.collider.GetComponent<EnemyShadow>();
                 if (enemy != null)

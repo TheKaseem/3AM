@@ -6,29 +6,42 @@ public class CameraDetector : MonoBehaviour
     public float camDetectionRange = 10f;
     public float visionAngle = 45f;
     public GameObject savingGO;
-    public string tag;
+
+    public string[] detectableTags = { "Enemy", "Shadow", "Translucent", "ParanormalEvent" };
 
     private void Update()
     {
-        GameObject enemy = GameObject.FindGameObjectWithTag(tag);
+        bool detected = false;
 
-        Vector3 dirToEnemy = (enemy.transform.position - transform.position).normalized;
+        foreach (string tag in detectableTags)
+        {
+            GameObject target = GameObject.FindGameObjectWithTag(tag);
+            if (target == null) continue;
 
-        float distance = Vector3.Distance(transform.position, enemy.transform.position);
-        float angle = Vector3.Angle(transform.forward, dirToEnemy);
+            Vector3 dirToTarget = (target.transform.position - transform.position).normalized;
+            float distance = Vector3.Distance(transform.position, target.transform.position);
+            float angle = Vector3.Angle(transform.forward, dirToTarget);
 
-        if (distance <= camDetectionRange && angle <= visionAngle)
+            if (distance <= camDetectionRange && angle <= visionAngle)
+            {
+                detected = true;
+                break;
+            }
+        }
+
+        if (detected)
         {
             if (!savingGO.activeSelf)
             {
                 savingGO.SetActive(true);
             }
-            return;
         }
-
-        if (savingGO.activeSelf)
+        else
         {
-            savingGO.SetActive(false);
+            if (savingGO.activeSelf)
+            {
+                savingGO.SetActive(false);
+            }
         }
     }
 

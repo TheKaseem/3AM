@@ -28,7 +28,7 @@ public class EnemyShadow : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
 
 
-        // Busca automáticamente el objeto con tag "Player"
+        // Busca automï¿½ticamente el objeto con tag "Player"
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
         {
@@ -76,16 +76,16 @@ public class EnemyShadow : MonoBehaviour
         touchedByRaycast = true;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             AudioSource.PlayClipAtPoint(disappearSound, Camera.main.transform.position);
-
 
             gameObject.SetActive(false);
         }
     }
+
 
     void LookPlayer()
     {

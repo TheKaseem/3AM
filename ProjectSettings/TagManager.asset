@@ -14,6 +14,9 @@ TagManager:
   - Rice
   - Doll
   - Vaso
+  - Shadow
+  - Translucent
+  - ParanormalEvent
   layers:
   - Default
   - TransparentFX
