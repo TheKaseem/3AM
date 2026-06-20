@@ -242,7 +242,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -3262,7 +3262,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -5418,7 +5418,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -9291,7 +9291,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -14055,7 +14055,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -21697,7 +21697,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}
@@ -26680,7 +26680,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 64
   m_UpdateFrequency: 0
   m_BoxSize: {x: 9.111404, y: 9.368844, z: 11.261078}
   m_BoxOffset: {x: -0.4442978, y: -0.31557798, z: 0.008862495}

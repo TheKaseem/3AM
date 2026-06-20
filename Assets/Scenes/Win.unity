@@ -614,7 +614,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8328,6 +8328,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 705024114}
   - {fileID: 270360875}
   - {fileID: 871755573}
   - {fileID: 189403958}
@@ -8346,5 +8347,4 @@ SceneRoots:
   - {fileID: 939928602}
   - {fileID: 476541762}
   - {fileID: 412113835}
-  - {fileID: 705024114}
   - {fileID: 139700673}
