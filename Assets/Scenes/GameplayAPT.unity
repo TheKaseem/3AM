@@ -8295,6 +8295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV Living Room
       objectReference: {fileID: 0}
+    - target: {fileID: 8537077935377170739, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8530,8 +8534,8 @@ MonoBehaviour:
   staticGO: {fileID: 1286071656}
   tvAudioSource: {fileID: 1286071655}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
-  chanceToTurnOn: 0.25
-  probabilityDistance: 5
+  chanceToTurnOn: 0.5
+  probabilityDistance: 6
   forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
@@ -15014,7 +15018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhoneController
   phoneAudioSource: {fileID: 1369594353}
   ringClip: {fileID: 8300000, guid: 9ff9827035266e34dac3cc1561cb1d53, type: 3}
-  chanceToTurnOff: 0.25
+  chanceToTurnOff: 0.5
   probabilityDistance: 7
   forcedOffDistance: 3
   playerTag: Player
@@ -19500,6 +19504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV Static Room 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8537077935377170739, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30010,6 +30018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV Static Room 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8537077935377170739, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30277,6 +30289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV Static Room 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8537077935377170739, guid: ea7efd3f014a1084fa89c1a4449db6bf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41225,9 +41241,9 @@ MonoBehaviour:
   staticGO: {fileID: 603698093}
   tvAudioSource: {fileID: 603698092}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
-  chanceToTurnOn: 0.25
-  probabilityDistance: 4.3
-  forcedEventDistance: 2.5
+  chanceToTurnOn: 0.5
+  probabilityDistance: 6
+  forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
@@ -41266,9 +41282,9 @@ MonoBehaviour:
   staticGO: {fileID: 2109283365}
   tvAudioSource: {fileID: 2109283364}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
-  chanceToTurnOn: 0.25
-  probabilityDistance: 4
-  forcedEventDistance: 2.5
+  chanceToTurnOn: 0.5
+  probabilityDistance: 6
+  forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
@@ -41307,8 +41323,8 @@ MonoBehaviour:
   staticGO: {fileID: 2078273738}
   tvAudioSource: {fileID: 1052495350}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
-  chanceToTurnOn: 0.25
-  probabilityDistance: 5
+  chanceToTurnOn: 0.5
+  probabilityDistance: 6
   forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
