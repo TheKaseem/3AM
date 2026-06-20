@@ -8531,8 +8531,8 @@ MonoBehaviour:
   tvAudioSource: {fileID: 1286071655}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
-  probabilityDistance: 6
-  forcedEventDistance: 4
+  probabilityDistance: 5
+  forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
@@ -41226,8 +41226,8 @@ MonoBehaviour:
   tvAudioSource: {fileID: 603698092}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
-  probabilityDistance: 6
-  forcedEventDistance: 3
+  probabilityDistance: 4.3
+  forcedEventDistance: 2.5
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
@@ -41267,8 +41267,8 @@ MonoBehaviour:
   tvAudioSource: {fileID: 2109283364}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
-  probabilityDistance: 6
-  forcedEventDistance: 4
+  probabilityDistance: 4
+  forcedEventDistance: 2.5
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
@@ -41308,8 +41308,8 @@ MonoBehaviour:
   tvAudioSource: {fileID: 1052495350}
   staticSound: {fileID: 8300000, guid: e2854b33d7fef9442ba3b692f669b730, type: 3}
   chanceToTurnOn: 0.25
-  probabilityDistance: 6
-  forcedEventDistance: 4
+  probabilityDistance: 5
+  forcedEventDistance: 3
   playerTag: Player
   enemySpawner: {fileID: 978819224}
   cooldownTime: 16
