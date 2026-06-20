@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 32
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 0.014
   m_CustomReflection: {fileID: 0}
@@ -66,7 +66,7 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_ReflectionCompression: 2
+    m_ReflectionCompression: 1
     m_MixedBakeMode: 2
     m_BakeBackend: 2
     m_PVRSampling: 1
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 9e592df3649ef4e4f8d8794082f365fa, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: d31a1d9d4d4ce4001b543d04d2acdc72, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a2f6163588e6e074996614a2b15b04b7, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -581,7 +581,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -625,7 +625,7 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 10
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
@@ -8329,6 +8329,11 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705024114}
+  - {fileID: 1313937084}
+  - {fileID: 939928602}
+  - {fileID: 476541762}
+  - {fileID: 412113835}
+  - {fileID: 139700673}
   - {fileID: 270360875}
   - {fileID: 871755573}
   - {fileID: 189403958}
@@ -8343,8 +8348,3 @@ SceneRoots:
   - {fileID: 1494801162}
   - {fileID: 826550146}
   - {fileID: 439404419}
-  - {fileID: 1313937084}
-  - {fileID: 939928602}
-  - {fileID: 476541762}
-  - {fileID: 412113835}
-  - {fileID: 139700673}
